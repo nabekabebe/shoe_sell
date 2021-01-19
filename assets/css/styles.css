@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 468px) {
+  #colNav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+.footer {
+  color: white;
+  background-color: #1a1d20;
+}
+
+.landing img {
+  height: 200px;
+  width: 200px;
+}
+
+#intro .card-img-top {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+}
+.accordian p {
+  display: flex;
+  flex-direction: row;
+}
+.shoe-expo .card .card-img-top {
+  height: 30vh;
+  object-fit: cover;
+}
